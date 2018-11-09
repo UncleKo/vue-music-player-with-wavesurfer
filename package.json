@@ -1,0 +1,33 @@
+{
+  "name": "web-audio-player",
+  "version": "1.0.0",
+  "description": "Web music player with web audio api and vue.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "SET NODE_ENV=development&& webpack",
+    "watch": "npm run dev -- --watch",
+    "production": "SET NODE_ENV=production&&webpack"
+  },
+  "browserslist": [
+    "> 1%",
+    "IE 9"
+  ],
+  "keywords": [],
+  "author": "UncleKo",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "~8.4.1",
+    "babel-core": "~6.26.0",
+    "babel-loader": "~7.1.2",
+    "babel-preset-env": "~1.6.1",
+    "css-loader": "~0.28.7",
+    "extract-text-webpack-plugin": "~2.1.2",
+    "node-sass": "~4.6.0",
+    "postcss-loader": "~2.1.5",
+    "sass-loader": "~6.0.6",
+    "style-loader": "~0.19.0",
+    "vue": "~2.5.16",
+    "webpack": "~3.8.1"
+  },
+  "dependencies": {}
+}
