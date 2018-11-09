@@ -22,7 +22,7 @@ There are some advantages and disadvantages.
 
 - Takes some time to load the waveform.
 
-- The need to use wavesurfer objects instead of HTML5 audio elemnets makes a code bit complicated or limited for me.
+- The need of using wavesurfer objects instead of HTML5 audio elemnets required more law javascript, ended up with less taking advantage of Vue.js 
 
 - I haven't came up with the solution so far to pause/play by spacebar that I have in the version without wavesurfer.
 
